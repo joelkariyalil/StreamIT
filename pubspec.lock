@@ -2,7 +2,7 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   async:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: async
       sha256: bfe67ef28df125b7dddcea62755991f807aa39a2492a23e1550161692950bbe0
@@ -34,21 +34,13 @@ packages:
     source: hosted
     version: "1.1.1"
   collection:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: collection
       sha256: cfc915e6923fe5ce6e153b0723c753045de46de1b4d63771530504004a45fae0
       url: "https://pub.dev"
     source: hosted
     version: "1.17.0"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: e35129dc44c9118cee2a5603506d823bab99c68393879edb440e0090d07586be
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -62,14 +54,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_image:
-    dependency: "direct main"
-    description:
-      name: flutter_image
-      sha256: "2cc76aefbc465ad629f8377a3d6daf21afa8f5937eed9394140034e3a0a71053"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -78,11 +62,24 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_localizations:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.17.0"
   js:
     dependency: transitive
     description:
@@ -99,14 +96,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
-  lists:
-    dependency: transitive
-    description:
-      name: lists
-      sha256: "6a7ef462dc13e1be2ad4f2216d1a10fde39632495e4521b81006775eb4413928"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.6"
   matcher:
     dependency: transitive
     description:
@@ -124,21 +113,13 @@ packages:
     source: hosted
     version: "0.2.0"
   meta:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: meta
       sha256: "6c268b42ed578a53088d834796959e4a1814b5e9e164f147f580a386e5decf42"
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
-  mgrs_dart:
-    dependency: transitive
-    description:
-      name: mgrs_dart
-      sha256: bfad8296e2eee123d96db78a7a4874a1275fe1cca53a20202ded41c39681ca64
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   path:
     dependency: transitive
     description:
@@ -147,14 +128,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
-  proj4dart:
-    dependency: "direct main"
-    description:
-      name: proj4dart
-      sha256: "139fb7a14a886584865f234743dcd02c9bf328b4490122a9e3308f2f894b9ee6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -208,30 +181,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
-  unicode:
-    dependency: transitive
-    description:
-      name: unicode
-      sha256: "6c31772807de48af538ce67cc565fd1e59479b33bd1f964003475dd42ccc0036"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.4"
   vector_math:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: vector_math
       sha256: "80b3257d1492ce4d091729e3a67a60407d227c27241d6927be0130c98e741803"
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  wkt_parser:
-    dependency: transitive
-    description:
-      name: wkt_parser
-      sha256: "1da78c2d1cfa6fbb3fe922b84fa5acccede293368fe990723a94f522e8b1c82a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.7"
 sdks:
   dart: ">=2.19.2 <3.0.0"
-  flutter: ">=1.10.15-pre.144"
