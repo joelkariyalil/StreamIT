@@ -52,20 +52,23 @@ class _LoginPageState extends State<LoginPage> {
                     },
                   ),
                   SizedBox(height: 16.0),
-                  Builder(
-                    builder: (BuildContext context) {
-                      return ElevatedButton(
-                        onPressed: () {
-                          if (_formKey.currentState!.validate()) {
-                            // Implement login functionality here
-                            String email = _emailController.text;
-                            String password = _passwordController.text;
-                            // Call your login API and handle the response
-                          }
-                        },
-                        child: Text('Login'),
-                      );
+                  ElevatedButton(
+                    onPressed: () {
+                      if (_formKey.currentState!.validate()) {
+                        // Implement login functionality here
+                        String email = _emailController.text;
+                        String password = _passwordController.text;
+                        // Call your login API and handle the response
+                      }
                     },
+                    child: Text('Login'),
+                  ),
+                  SizedBox(height: 8.0),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Implement create room functionality here
+                    },
+                    child: Text('Create Room'),
                   ),
                 ],
               ),
